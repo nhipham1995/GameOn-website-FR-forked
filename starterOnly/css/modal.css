@@ -78,7 +78,7 @@ img {
 	}
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1168px) {
 	.topnav.responsive {
 		position: relative;
 	}
@@ -93,7 +93,7 @@ img {
 		text-align: left;
 	}
 	.topnav.responsive a:first-of-type {
-		margin-top: 55px;
+		margin-top: 65px;
 	}
 }
 
@@ -538,7 +538,7 @@ footer {
 	align-items: center;
 	justify-content: center;
 	text-align: center;
-	line-height: 190%;
+	line-height: 150%;
 }
 
 @keyframes modalopen {
