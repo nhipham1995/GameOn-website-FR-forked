@@ -1,0 +1,22 @@
+/* .modal-success-confirmation {
+	display: none;
+}
+.modal-success-confirmation p {
+	height: 900px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+} */
+@media screen and (max-width: 1150px) {
+	div.main-navbar a span {
+		font-size: 1.1rem;
+		margin: 5px 2px;
+		padding: 12px 5px;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	h1.hero-headline {
+		font-size: 3rem;
+	}
+}
