@@ -119,10 +119,10 @@ form.addEventListener("submit", (e) => {
 		);
 		successValidation = false;
 	} else refresh(null, errMsg7);
-	// form.submit();
 	if (successValidation) {
 		form.style.display = "none";
 		confirmationMsg.style.display = "block";
+		// empty all the fields of form
 		form.reset();
 	}
 });
