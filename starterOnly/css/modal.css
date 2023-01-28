@@ -104,10 +104,13 @@ img {
 	.topnav a.icon {
 		float: right;
 		display: block;
-		margin-top: -15px;
 	}
 }
-
+@media screen and (max-width: 340px) {
+	.topnav a.icon {
+		margin-top: -45px;
+	}
+}
 main {
 	font-size: 130%;
 	font-weight: bolder;
@@ -493,12 +496,14 @@ footer {
 @media screen and (max-width: 800px) {
 	.hero-section {
 		display: block;
-		box-shadow: unset;
+		/* box-shadow: unset; */
 	}
 	.hero-content {
 		background: #fff;
 		color: #000;
 		padding: 20px;
+		min-width: auto;
+		/* padding: 20px 20px 20px 0; */
 	}
 	.hero-content::after {
 		content: unset;
